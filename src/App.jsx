@@ -7,7 +7,7 @@ export default function App() {
   const data = [
     {
       id:1,
-      heure:'15:00',
+      heure:'15:30',
       duree: 90
     }
   ]
