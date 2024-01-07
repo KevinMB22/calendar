@@ -13,7 +13,7 @@ export default function App() {
   ]
 
   return (
-    <div className='w-full h-[100vh] flex justify-center items-center'>
+    <div className='w-full h-[90vh] lg:h-[100vh] flex justify-center items-center'>
       <article className="w-[100%] h-[100%] flex items-center">
         <figure className='w-[80px] h-[100%] flex flex-col justify-between items-center'>
           <p>8h</p>
