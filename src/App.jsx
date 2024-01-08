@@ -28,7 +28,7 @@ export default function App() {
   ];
 
   return (
-    <div className='w-full h-[80vh] lg:h-[100vh] flex justify-center items-center'>
+    <div className='w-full lg:h-[100vh] flex justify-center items-center'>
         <CalendarTest/>
     </div>
   );
