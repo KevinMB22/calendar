@@ -1,35 +1,22 @@
 import './App.css'
-import { Calendar, momentLocalizer } from 'react-big-calendar'
-import 'react-big-calendar/lib/css/react-big-calendar.css';
-import moment from 'moment'
-import React, { useState } from 'react';
-import CalendarTest from './Calendar';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import CalendarHour from './pages/CalendarHour';
+import CalendarComplete from './pages/CalendarComplete';
 
 export default function App() {
 
-  const localizer = momentLocalizer(moment)
-
-  const data = [
-    {
-      id:1,
-      heure:'15:30',
-      duree: 90
-    }, 
-  ]
-
-  const events = [
-    {
-      id: 1,
-      title: 'Event 1',
-      start: moment('2024-01-08T10:00:00').toDate(),
-      end: moment('2024-01-08T12:00:00').toDate(),
-    },
-    // Add more events as needed
-  ];
-
   return (
-    <div className='w-full lg:h-[100vh] flex justify-center items-center'>
-        <CalendarTest/>
+    
+    <div className='w-full'>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='calendar-hour' element={<CalendarHour/>}/>
+          <Route path='calendar-complete' element={<CalendarComplete/>}/>
+        </Routes>
+      </BrowserRouter>
+      
     </div>
   );
 };
