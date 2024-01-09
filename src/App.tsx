@@ -20,14 +20,7 @@ export default function App() {
     locales,
   })
   
-  // Rendre automatique la conversion des horaires de l'evenement dans le format attendu
-  // const event = [
-  //   {
-  //     id: 1,
-  //     debut: '15:00',
-  //     duree: 50
-  //   }
-  // ]
+  // Rendre automatique la conversion des horaires de l'input de l'evenement dans le format attendu
 
   const myEventsList = [
     
