@@ -21,13 +21,13 @@ export default function App() {
   })
   
   // Rendre automatique la conversion des horaires de l'evenement dans le format attendu
-  const event = [
-    {
-      id: 1,
-      debut: '15:00',
-      duree: 50
-    }
-  ]
+  // const event = [
+  //   {
+  //     id: 1,
+  //     debut: '15:00',
+  //     duree: 50
+  //   }
+  // ]
 
   const myEventsList = [
     
