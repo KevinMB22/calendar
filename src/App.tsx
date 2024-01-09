@@ -57,7 +57,7 @@ export default function App() {
         min={new Date(2024, 0, 9, 8, 0, 0)}
         max={new Date(2024, 0, 9, 22, 0, 0)}
         style={{height:'100vh'}}
-        className="w-full h-[100vh]"
+        className="w-full"
 
       />
     </div>
