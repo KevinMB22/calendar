@@ -21,7 +21,7 @@ export default function App() {
     locales,
   })
   
-  // Rendre automatique la conversion des horaires de l'input de l'evenement dans le format attendu
+  // Rendre automatique la conversion des horaoires de l'input de l'evenement dans le format attendu
 
   const myEventsList = [
     
