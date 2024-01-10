@@ -1,4 +1,5 @@
 import { Calendar,dateFnsLocalizer } from "react-big-calendar";
+import SectionHome from "./components/Section";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import format from 'date-fns/format'
 import parse from 'date-fns/parse'
@@ -41,7 +42,7 @@ export default function App() {
 
   return (
     <div className="w-full h-[100vh] flex justify-center ">
-      <Calendar
+      {/* <Calendar
         localizer={localizer}
         events={myEventsList}
         startAccessor="start"
@@ -52,7 +53,8 @@ export default function App() {
         style={{height:'100vh'}}
         className="w-full"
 
-      />
+      /> */}
+      <SectionHome/>
     </div>
   );
 }
