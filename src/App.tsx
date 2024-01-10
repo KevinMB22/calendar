@@ -2,8 +2,6 @@
 import SectionHome from "./components/Section";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 
-import frFR from 'date-fns/locale/fr'
-
 export default function App() {
 
 
